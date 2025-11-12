@@ -35,7 +35,7 @@ text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px;
+    margin: 30px 10px 10px  ;
 }
 .input-field{
     width: 70%;
@@ -59,26 +59,42 @@ text-align: center;
     cursor: pointer;
 }
 .display{
-    margin: 20px;
+    margin: 20px 20px 20px ;
+    
     border: 1px solid white;
-    height: 400px;
+    height: 430px;
     width: 90%;
 }
 .weather-icon{
     width: 100px;
     height: 100px;
-    margin: 20px;
+    margin-bottom: 10px;
+    
 
 
 }
 .temp{
     color: white;
-    font-size: 40px;
+    font-size: 25px;
     line-height: 1;
+    
 }
 
 .location{
+   
     color: white;
-    font-size: 30px;
-    margin-bottom: 20px;
+    font-size: 25px;
+  
+}
+.wind-icon,.hum-icon{
+    height: 100px;
+}
+.weather-data{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.col-1,.col-2{
+      color: white;
+    font-size: 25px;
 }
