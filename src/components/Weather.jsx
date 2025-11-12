@@ -28,7 +28,7 @@ export default function Weather() {
         "13n": snowy,
     };
     async function search(cityN) {
-       if(city==""){
+       if(cityN==""){
         alert("Please enter a city name");
         return;
        }
