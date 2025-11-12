@@ -28,10 +28,10 @@ export default function Weather() {
         "13n": snowy,
     };
     async function search(cityN) {
-        if(cityN===" "){
-            alert("Please enter a city name");
-            return;
-        }
+       if(city==""){
+        alert("Please enter a city name");
+        return;
+       }
         try {
             const apikey = "16b2b09d2874d62b661b7185c2671c22";
             const url = `https://api.openweathermap.org/data/2.5/weather?q=${cityN}&units=metric&appid=${apikey}`;
