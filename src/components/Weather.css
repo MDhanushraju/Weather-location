@@ -1,0 +1,84 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../assets/a-leaf-is-floating-on-the-surface-of-a-body-of-water-free-photo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.weather{
+    height: 600px;
+    width: 400px;
+ background: rgb(225, 225, 225,0.1);
+ border-radius: 20px ;
+border: 1px solid rgb(241, 238, 238);    
+backdrop-filter: blur(3px);
+text-align: center;
+/* -webkit-backdrop-filter: blur(10px); */
+    font-family: 'Arial', sans-serif;
+   
+    
+}
+.input-box{
+    width: 95%;
+    border: 1px solid  white;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.input-field{
+    width: 70%;
+    height: 30px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    
+    background-color: rgb(248, 248, 247,0.2);
+}
+.input-field:hover{
+    border: 1px rgb(33, 4, 4) solid;
+}
+.btn{
+    width: 10%;
+    height: 30px;
+    margin-left: 2px;
+    border:none;
+    background-color: rgb(248, 248, 247,0.2);
+    font-size: 16px;
+    cursor: pointer;
+}
+.display{
+    margin: 20px;
+    border: 1px solid white;
+    height: 400px;
+    width: 90%;
+}
+.weather-icon{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+
+
+}
+.temp{
+    color: white;
+    font-size: 40px;
+    line-height: 1;
+}
+
+.location{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
